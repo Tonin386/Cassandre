@@ -1,11 +1,8 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include <SoftwareSerial.h>
-#include <XBee.h>
 
 SoftwareSerial xbeeSerial(16, 17);  // RX (D2), TX (D3) - Adjust the pin numbers as per your wiring
-XBee xbee = XBee();
-XBeeAddress64 destAddr = XBeeAddress64(0x0000000000882235);  // Destination address
 
 const char* ssidServer = "ChildWiFi";
 const char* passwordServer = "123456789";
@@ -84,8 +81,9 @@ void loop() {
   }
   
   //Envoi d'un message
-  char message[] = "Very funny from Antoto!\n";
-  xbeeSerial.write(message);
+  String message = "Pedometer value = " + String(pedometer) = "\n";
+  xbeeSerial.write(message.c_str(), message.length());
+
 
   //réception d'un message
   xbeeSerial.write("+++");
