@@ -2,7 +2,7 @@
 
 Ce répositoire permet de créer une structure de communication de partage d'informations en utilisant un module XBee et des ESP32 (voir le schéma). Nous présentons ici la partie concernant le terrain de Basket : comment le mettre en place et l'utiliser.
 
-![Schéma du projet](https://i.ibb.co/T8hYS7C/Sch-ma-projet.png)
+![Schéma du projet](https://i.ibb.co/47NRstg/Sch-ma-projet.png)
 
 ## Matériel nécessaire
 
@@ -67,10 +67,10 @@ Votre XBee est bien configuré !
 ### Branchements
 Une fois les logiciels et les drivers installés, on peut procéder à la mise en place des équipements. Il faut brancher la XBee Grove Dev Board (sur laquelle est inséré le module XBee S2C) à un ESP32 WROOM 32 en utilisant ce branchement : 
 
-![Branchement XBEE - ESP32](https://i.ibb.co/4pyc463/Branchement-XBEE-ESP32.png)
+![Branchement XBEE - ESP32](https://i.ibb.co/56H2rN8/Branchement-XBEE-ESP32-1-1.png)
 
  (Optionnel) Branchement du capteur sur l'autre carte ESP32 WROOM 32 :
-![Branchement Capteur - ESP32](https://i.ibb.co/jrfZGBF/Branchement-Capteur-ESP32.png)
+![Branchement Capteur - ESP32](https://i.ibb.co/kKng51s/Branchement-Capteur-ESP32.png)
 
 ### Installation des cartes et des bibliothèques dans Arduino IDE
  Tout d'abord, il faut ajouter les cartes ESP32 à l'IDE, car elles ne sont pas disponibles de base. 
