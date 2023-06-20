@@ -15,9 +15,9 @@ Il faut aussi au préalable installer XCTU ainsi que Arduino IDE.
 **Vérifiez de bien posséder tous les drivers nécessaires pour brancher vos modules sur les ports USB, sinon vous ne pourrez pas voir les modules sur votre ordinateur !** 
 
 ### Téléchargement XCTU
-Windows (64 bits) : https://hub.digi.com/support/products/xctu/?path=/support/asset/xctu-v-659-windows-x86x64/
-Mac : https://hub.digi.com/support/products/xctu/?path=/support/asset/xctu-v-658-macos-x/
-Linux (64 bits) : https://hub.digi.com/support/products/xctu/?path=/support/asset/xctu-v-659-linux-x64/
+- Windows (64 bits) : https://hub.digi.com/support/products/xctu/?path=/support/asset/xctu-v-659-windows-x86x64/
+- Mac : https://hub.digi.com/support/products/xctu/?path=/support/asset/xctu-v-658-macos-x/
+- Linux (64 bits) : https://hub.digi.com/support/products/xctu/?path=/support/asset/xctu-v-659-linux-x64/
 
 ### Téléchargement Arduino IDE
 
