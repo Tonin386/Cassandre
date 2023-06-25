@@ -106,3 +106,6 @@ Maintenant, vous pouvez téléversez les codes sur les cartes comme préciser ci
     http_relay > ESP32 seul
 
 Vous pouvez ouvrir les consoles Serial afin d'obtenir des informations sur le déroulé des programmes.
+
+### Contact
+Pour toute question ou demande d'information, n'hésitez pas à m'envoyer un mail ou me contacter ! tonin386@gmail.com
